@@ -1,6 +1,6 @@
-from ofxclient.account import BankAccount, BrokerageAccount, CreditCardAccount
-from ofxclient.institution import Institution
-from ofxclient.util import combined_download
+from account import BankAccount, BrokerageAccount, CreditCardAccount
+from institution import Institution
+from util import combined_download
 from ofxhome import OFXHome
 import argparse
 import config

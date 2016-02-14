@@ -1,6 +1,6 @@
 import StringIO
 import hashlib
-from ofxclient.client import Client
+from client import Client
 from ofxparse import OfxParser
 from BeautifulSoup import BeautifulStoneSoup
 
